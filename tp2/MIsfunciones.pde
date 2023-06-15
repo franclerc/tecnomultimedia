@@ -96,7 +96,7 @@ if (mouseX > 525 && mouseX < 590 && mouseY > 130 && mouseY < 190 ){
           Cuadrado(c,i, tam );
            if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
             float d = dist(c,i,mouseX, mouseY);
-            rect(c,i,d/3,d/3);
+            ellipse(c,i,d/2,d/2);
         
       }
     }
