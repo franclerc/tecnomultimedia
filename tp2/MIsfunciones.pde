@@ -59,15 +59,11 @@ if (mouseX > 525 && mouseX < 590 && mouseY > 130 && mouseY < 190 ){
     for (int i = Posy; i < 250; i+=28){
          
           Cuadrado(c,i, tam);
-       
+    
          
      }
    }
-   
-
- 
- 
- // 
+    // 
   popStyle(); 
    }
  
@@ -94,9 +90,9 @@ if (mouseX > 525 && mouseX < 590 && mouseY > 130 && mouseY < 190 ){
      for (int i = Posy; i < 800; i+=28){
               
           Cuadrado(c,i, tam );
-           if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
+             if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
             float d = dist(c,i,mouseX, mouseY);
-            ellipse(c,i,d/2,d/2);
+            ellipse(c,i,d/4,d/4);
         
       }
     }
@@ -136,31 +132,47 @@ void LineasBlancas1(int Posx, int Posy){ // lineas centrales de los rombos.
   for(int l = Posx; l < 800; l+= 28){    //arriba
       for(int j = Posy; j < 120; j+= 28){
              line(l,j, l+8,j-8);
+                                  if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
+            float d = dist(l,j,mouseX, mouseY);
+            ellipse(l,j,d/35,d/35);
+             }
            }
     }
     
      for(int l = Posx; l < 800; l+= 28){    //abajo
       for(int j = Posy+280; j < 400; j+= 28){
              line(l,j, l+8,j-8);
+                                          if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
+            float d = dist(l,j,mouseX, mouseY);
+            ellipse(l,j,d/35,d/35);
+            }
       }
     }
     
    for(int l = Posx; l < 500; l+= 28){    //lateral izquierdo
       for(int j = Posy+112; j < 300; j+= 28){
              line(l,j, l+8,j-8);
+                                          if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
+            float d = dist(l,j,mouseX, mouseY);
+            ellipse(l,j,d/35,d/35);
+           
+        
+      }
       }
     }
     
     for(int l = Posx+308; l < 800; l+= 28){    // lateral derecho
       for(int j = Posy+112; j < 300; j+= 28){
              line(l,j, l+8,j-8);
+                                          if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
+            float d = dist(l,j,mouseX, mouseY);
+            ellipse(l,j,d/35,d/35);
+           
+        
+      }
       }
     }
-    
-    
-      
-      
-      //
+     //
  popStyle();
  }
  
@@ -176,11 +188,12 @@ void LineasBlancas2(int Posx, int Posy){ // lineas centrales de los rombos. (inv
 for(int i = Posx; i < 670; i+= 28){    // lateral izquierdo
       for(int j = Posy; j < 280; j+= 28){
              line(i,j, i+8,j+8);
-               }
+ }
         }
   //
  popStyle();
  }
+ 
  
  
  
