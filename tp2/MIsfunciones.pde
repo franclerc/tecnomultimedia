@@ -92,7 +92,7 @@ if (mouseX > 525 && mouseX < 590 && mouseY > 130 && mouseY < 190 ){
           Cuadrado(c,i, tam );
              if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
             float d = dist(c,i,mouseX, mouseY);
-            ellipse(c,i,d/4,d/4);
+            ellipse(c,i,d/2,d/2);
         
       }
     }
@@ -134,7 +134,8 @@ void LineasBlancas1(int Posx, int Posy){ // lineas centrales de los rombos.
              line(l,j, l+8,j-8);
                                   if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
             float d = dist(l,j,mouseX, mouseY);
-            ellipse(l,j,d/35,d/35);
+            stroke(0);
+            ellipse(l,j,d/15,d/15);
              }
            }
     }
@@ -144,7 +145,8 @@ void LineasBlancas1(int Posx, int Posy){ // lineas centrales de los rombos.
              line(l,j, l+8,j-8);
                                           if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
             float d = dist(l,j,mouseX, mouseY);
-            ellipse(l,j,d/35,d/35);
+            stroke(0);
+            ellipse(l,j,d/15,d/15);
             }
       }
     }
@@ -154,7 +156,8 @@ void LineasBlancas1(int Posx, int Posy){ // lineas centrales de los rombos.
              line(l,j, l+8,j-8);
                                           if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
             float d = dist(l,j,mouseX, mouseY);
-            ellipse(l,j,d/35,d/35);
+            stroke(0);
+            ellipse(l,j,d/15,d/15);
            
         
       }
@@ -166,7 +169,8 @@ void LineasBlancas1(int Posx, int Posy){ // lineas centrales de los rombos.
              line(l,j, l+8,j-8);
                                           if ( mouseX > 400 && mouseX <800 && mouseY > 0 && mouseY < 400){
             float d = dist(l,j,mouseX, mouseY);
-            ellipse(l,j,d/35,d/35);
+            stroke(0);
+            ellipse(l,j,d/15,d/15);
            
         
       }
@@ -180,19 +184,22 @@ void LineasBlancas1(int Posx, int Posy){ // lineas centrales de los rombos.
 void LineasBlancas2(int Posx, int Posy){ // lineas centrales de los rombos. (inversas).
      pushStyle();
  //
-
  stroke(255);
   strokeWeight(5);
  
 
 for(int i = Posx; i < 670; i+= 28){    // lateral izquierdo
       for(int j = Posy; j < 280; j+= 28){
-             line(i,j, i+8,j+8);
+          line(i,j, i+8,j+8);
+
+          
  }
         }
   //
  popStyle();
  }
+ 
+ 
  
  
  
