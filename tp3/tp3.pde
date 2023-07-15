@@ -267,7 +267,7 @@ void draw() {
     text (texto[33], 230, 350 );
     Boton(440, 500, 29, 440, 500, 90, 30);
     confgtext (13, color (200) );
-    text (texto[34], 414, 500 );
+    text (texto[34], 405, 500 );
   }
   if ( estado.equals("Pantalla[10]") ) {
     background(0);
@@ -282,7 +282,7 @@ void draw() {
     text(texto[35], 150, 80);
     Boton(150, 400, 29, 150, 400, 90, 30);
     confgtext (13, color (200) );
-    text (texto[8], 125, 400);
+    text (texto[8], 123, 400);
     Boton(440, 400, 29, 440, 400, 90, 30);
     confgtext (13, color (200) );
     text (texto[7], 412, 400);
@@ -308,7 +308,7 @@ void draw() {
     text(texto[37], 240, 90);
     Boton(530, 560, 29, 530, 560, 90, 30);
     confgtext (13, color (180) );
-    text (texto[38], 505, 560 );
+    text (texto[38], 496, 560 );
   }
   if (estado.equals("Pantalla[12]") ) { // corregir este
     background(0);
@@ -421,7 +421,7 @@ void draw() {
     image(Fondo[17], 0, 0);
     Boton(300, 550, 29, 300, 550, 90, 30);
     confgtext (13, color (200) );
-    text (texto[58], 278, 550 );
+    text (texto[58], 273, 550 );
   }
 }
 
