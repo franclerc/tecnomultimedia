@@ -56,13 +56,13 @@ void Textos() {
   texto[31]= "La noche volvio a surgir de repente..";
   texto[32]= "Una sonrisita de fondo,\nsimilar a la del gato \nse escucha en el ambiente";
   texto[33]= "Una puerta se materializa\nde la nada, sobre un árbol";
-  texto[34]= "Ingresar";
+  texto[34]= "INGRESAR";
   // Textos Pantalla 10
   texto[35]= "Al ingresar por la abertura,\n       se encontro nuevamente\n              en la habitacion de las puertas.";
   // Textos Pantalla 11
   texto[36]= "Su tamaño disminuyo grotescamente";
   texto[37]= "Quedo del tamaño perfecto\n    para ingresar por la ex pequeña puerta.";
-  texto[38]= "Ingresar";
+  texto[38]= "INGRESAR";
   // Textos Pantalla 12
   texto[39]= "Cuando pasó por la puerta, se encontro a una multitud";
   texto[40]= "La reina,\njugaba al Croquet, y ordenaba\ncortar cabeza a quien le ganara.";
@@ -88,5 +88,5 @@ void Textos() {
   texto[56]= "Aqui yase el alma en pena de la pobre Alicia";
   texto[57]= "FIN";
   //texto creditos 17
-  texto[58]= "Volver";
+  texto[58]= "VOLVER";
 }
