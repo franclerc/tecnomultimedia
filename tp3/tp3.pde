@@ -358,7 +358,7 @@ void draw() {
       confgtext (19, color (230, 230, 230, 0));
     }
     text(texto[47], 25, 500);
-    if (Presione1 == true) {
+    if (Presione2 == true) {
       confgtext (17, color (255, 211, 211, 255) );
     } else {
       confgtext (30, color (255, 211, 211));
