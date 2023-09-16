@@ -248,14 +248,14 @@ function keyPressed() {    // MOVIMIENTO DEL BOTE
     if (dist(Posxbote, 200, x2, 200)< 180) {
       Posxbote.stop();
     } else {
-      Posxbote+=20;
+      Posxbote+=30;
     }
   }
   if ( keyCode == LEFT_ARROW) {
     if (dist(Posxbote, 200, x3, 200)==0) {
       Posxbote.stop();
     } else {
-      Posxbote-=20;
+      Posxbote-=30;
     }
   }
 }
