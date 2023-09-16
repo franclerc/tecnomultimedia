@@ -1,6 +1,6 @@
-// tarda unos seg en arrancar..
+// Tarda unos seg en arrancar..
 // video pedido:
-//https://www.youtube.com/watch?v=TH-EsOezmgs
+// https://www.youtube.com/watch?v=2Eel_GK0HV0
 
 let estado, mover;        //VARIABLES GLOBALES
 let img=[];
@@ -88,7 +88,7 @@ function draw() {
     if (time > 60) {
       image(img[5], Posxhuman, Posyhuman, ancho, alto);
       if (Posyhuman > 80 && ancho < 130 &&  alto < 130) {
-        Posxhuman = random(30, 280);
+        Posxhuman = random(30, 270);
         ancho++;
         alto++;
       }
@@ -116,10 +116,10 @@ function draw() {
     text('Salvados='+ salvaste, 20, 40);
 
 
-    if (salvaste >  10) {            //X2
+    if (salvaste >  15) {            //X2
       image(img[5], Posxhuman1, Posyhuman1, ancho1, alto1);
       if (Posyhuman1 > 80 && ancho1 < 130 &&  alto1 < 130) {
-        Posxhuman1= random(30, 280);
+        Posxhuman1= random(30, 270);
         ancho1++;
         alto1++;
       }
@@ -144,7 +144,7 @@ function draw() {
     }
 
 
-    if (salvaste == 20) {  // condicion para ganar y perder..
+    if (salvaste == 30) {  // condicion para ganar y perder..
       estado= "2";
       salvaste=0;
       muertes=0;
@@ -219,7 +219,7 @@ function draw() {
     text("Legajo: 91500/8.", 40, 350);
     text("Basado en juego:'Parachute' de los 80.", 40, 370);
 
-    text("El jugador debera mover el bote de izquierda a derecha\npara salvar a los paracaidista que van cayendo del\nhelicoptero.\nSi tres paracaidista caen al agua, el jugador perdera\naurtomaticamente.\nY si rescata a 20 personas, ganara de inmediato.", 40, 110);
+    text("El jugador debera mover el bote de izquierda a derecha\npara salvar a los paracaidista que van cayendo del\nhelicoptero.\nSi tres paracaidista caen al agua, el jugador perdera\naurtomaticamente.\nY si rescata a 30 personas, ganara de inmediato.", 40, 110);
     Boton(200, 380, 480, 520, 200, 470, 180, 40);
     fill(160);
     text("Volver al inicio", 220, 495);
