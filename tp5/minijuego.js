@@ -131,10 +131,10 @@ class minijuego {
   nuevaPuerta.Puerta_Comeme = 0;
   nuevaPuerta.Puerta_Bebeme = 0;
 
-  // Restaurar las imágenes de las puertas cerradas en la nueva instancia
+  
   nuevaPuerta.puerta = [...nuevaPuerta.puerta.map(() => loadImage("data/puerta.png"))];
 
-  // Asignar la nueva instancia a la propiedad puerta de esta clase
+  
   this.puerta = nuevaPuerta;
 }
 }
