@@ -1,0 +1,51 @@
+@font-face {
+font-family:'MiTipografia';
+src: url('tipografias/IMPACTFUL.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+body{
+background-color: aqua;
+}
+
+h1{
+font-family:'MiTipografia', sans-serif;
+color: rgb(26, 111, 49);
+}
+
+h4{
+font-family:'MiTipografia', sans-serif;
+text-align: center;
+color: black;
+}
+h5{
+font-family:'MiTipografia', sans-serif;
+text-align: center;
+}
+
+h6{
+    font-family:'MiTipografia', sans-serif;
+}
+
+p{
+ font-family: 'Montserrat', sans-serif;
+ color: rgb(100, 100, 100);
+}
+
+footer{
+text-align: center;
+color: rgb(248, 55, 55);
+}
+
+button{
+text-align: center;
+color: rgb(81, 81, 249);
+}
+
+
+
+
+
+
+
+
